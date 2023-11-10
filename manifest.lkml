@@ -8,12 +8,12 @@ constant: CONNECTION_NAME {
 }
 
 constant: SCHEMA_NAME {
-  value: "gcp_logs"
+  value: "sample_billing_gcp"
   export: override_optional
 }
 
 # Looks like it should just be a single table, so no _* notation
 constant: BILLING_EXPORT_TABLE_NAME {
-  value: "gcp_billing_export_v1_002831_A42942_C36931"
+  value: "gcp_billing_export_v1"
   export: override_optional
 }
